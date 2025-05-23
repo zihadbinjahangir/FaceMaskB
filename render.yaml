@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: polygon-streamlit
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run frontend/app.py --server.port 10001 --server.address 0.0.0.0
+    runtime: python
