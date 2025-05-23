@@ -1,4 +1,4 @@
-# 🎨 Polygon Predictor Frontend (Streamlit)
+# 🎨 Mask Predictor Frontend (Streamlit)
 
 This is the frontend of the Polygon Predictor app, built with Streamlit. It allows users to upload an image, sends it to the FastAPI backend, and displays the predicted polygon-masked result.
 
